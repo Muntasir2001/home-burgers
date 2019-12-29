@@ -10,11 +10,12 @@ body {
     margin: auto;
     margin-top: 30px;
 }
+
 .container {
     overflow: hidden;
     color: white;
     text-transform: uppercase;
-    width: 80%;
+    /* max-width: 80%; */
     font-size: 30px;
     padding-left: 100px;
     text-align: center;
@@ -23,6 +24,7 @@ body {
 .container h1 {
     font-family: 'Lobster', cursive;
 }
+
 .header {
     /* background-color: rgb(204, 204, 0); */
     background-color: rgb(204, 51, 0);
@@ -87,6 +89,7 @@ nav {
 
 .order-now {
     transition: background .5s;  
+    padding: 5px;
 }
 
 .order-now:link {
@@ -453,6 +456,7 @@ nav {
     text-transform: uppercase;
     width: 90px;
     margin-left: 0px;
+    transition: background .5s;
 }
 
 .subscribe p {
@@ -461,7 +465,16 @@ nav {
     font-size: 2em;
     color: white;
 }
- 
+
+.subscribe input[type="submit"]:hover {
+    background-color: rgb(179, 0, 0);
+    color: white;
+}
+
+.subscribe input[type="submit"]:active {
+    border: 0.5px solid black;
+}
+
 footer {
     position: relative;
     top: 30px;
@@ -475,10 +488,10 @@ footer {
     font-size: 3em;
 }
 
-#first-service {
-  /*  border: 1px solid black; */
+/* #first-service {
+  /*  border: 1px solid black; 
 
-}
+} */
 
 #first-service h2 {
     font-size: 1.9em;
@@ -490,9 +503,9 @@ footer {
     font-family: 'Noticia Text', serif;
 }
 
-#second-service {
-   /* border: 1px solid black; */
-}
+/* #second-service {
+   /* border: 1px solid black; 
+} */
 
 #second-service h2 {
     font-size: 1.9em;
@@ -504,9 +517,9 @@ footer {
     font-family: 'Noticia Text', serif;
 }
 
-#third-service {
-   /* border: 1px solid black; */
-}
+/* #third-service {
+   /* border: 1px solid black; 
+} */
 
 #third-service h2 {
     font-size: 1.9em;
@@ -518,9 +531,9 @@ footer {
     font-family: 'Noticia Text', serif;
 }
 
-#fourth-service {
-   /* border: 1px solid black; */
-}
+/* #fourth-service {
+   /* border: 1px solid black; 
+} */
 
 #fourth-service h2 {
     font-size: 1.9em;
@@ -620,9 +633,9 @@ footer {
     font-size: 1.2em;
 }
 
-.intro {
-   /* border: 1px solid black; */
-}
+/* .intro {
+   /* border: 1px solid black; 
+} */
 
 .intro h1 {
     text-align: center;
@@ -923,4 +936,25 @@ footer {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.2em;
     text-align: center;
+}
+
+/*Media queries for mobile devices */
+@media(max-width: 500px) {
+    .container{
+        width: 100%;
+        text-align: center;
+        /* overflow: visible; */
+        margin-right: 0;
+        border: 1px solid green;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    body {
+        width: 100%;
+        margin: 0px;
+    }
+
 }

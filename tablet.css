@@ -1,0 +1,293 @@
+header h1 {
+    font-size: 4.5rem;
+}
+
+nav ul {
+    padding: 5px 0;
+}
+
+nav ul li {
+    display: block;
+    padding: 5px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    padding: 1px;
+}
+
+#section1 {
+    height: 650px;
+    text-align: center;
+}
+
+#section1 .s1content{
+    padding-top: 20px;
+    /* height: 50%; */
+    margin: auto;
+    float: none;
+    text-align: center;
+}
+
+#section1 .s1content h1 {
+    padding-top: 5px;
+    line-height: 55px;
+}
+
+#section1 .s1content h2 {
+    padding-top: 30px;
+}
+
+#section1 .order-now {
+    margin-top: 2rem;
+}
+
+#section1 .s1img {
+    float: none;
+    /* display: none; */
+    width: 100%;
+    background: url('./burger-1.jpeg') no-repeat center center;
+    min-height: 50%;
+}
+
+#section2 {
+    height: 650px;
+    margin-bottom: 5px;
+    margin-top: 90px;;
+}
+
+#section2 .s2content {
+    height: 50%;
+    float: none;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#section2 .s2content h1 {
+    padding-top: 5px;
+    line-height: 55px;
+}
+
+#section2 .s2content h2 {
+    padding-top: 30px;
+}
+
+#section2 .s2img {
+    float: none;
+    min-height: 50%;
+    /* display: none; */
+    width: 100%;
+    background: url('./burger 2.jpeg') no-repeat center center;
+    /* margin-top: 500px; */
+}
+
+#section2 .s2content .order-now {
+    margin-top: 2rem;
+}
+
+.box {
+    width: 100%;
+}
+
+.announcement {
+    margin: 5px auto;
+    max-width: 100%;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+.announcement h1 {
+    font-size: 35px;
+}
+
+.announcement p {
+    font-size: 15px;
+}
+
+footer .subscribe {
+    padding: 20px;
+}
+
+footer .subscribe input {
+    display: block;  
+}
+
+footer .subscribe input[type="text"] {
+    width: 100%;
+    color: white;
+}
+
+footer .subscribe input[type="email"] {
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+}
+
+footer .subscribe input[type="submit"] {
+    margin: 10px auto 0 auto;
+    height: 2.5rem;
+} 
+
+footer .subscribe ::placeholder {
+    text-align: center;
+}
+
+footer .subscribe p {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 50px;
+}
+
+#list-1 {
+    float: none;
+    margin-top: 40px;
+    height: 500px;
+}
+
+#list-1 ul {
+    padding-top: 30px;
+}
+
+#list-1 li {
+    padding: 14px;
+    font-size: 1.5em;
+}
+
+#list-1 h1 {
+    font-size: 3em;
+}
+
+#list-2 {
+    float: none;
+    margin-top: 40px;
+    height: 500px;
+}
+
+#list-2 ul {
+    padding-top: 30px;
+}
+
+#list-2 li {
+    padding: 14px;
+    font-size: 1.5em;
+}
+
+#list-2 h1 {
+    font-size: 3em;
+}
+
+#list-3 {
+    float: none;
+    margin-top: 40px;
+    height: 500px;
+}
+
+#list-3 ul {
+    padding-top: 30px;
+}
+
+#list-3 li {
+    padding: 14px;
+    font-size: 1.5em;
+}
+
+#list-3 h1 {
+    font-size: 3em;
+}
+
+#list-4 {
+    float: none;
+    margin-top: 40px;
+    height: 500px;
+}
+
+#list-4 ul {
+    padding-top: 30px;
+}
+
+#list-4 li {
+    padding: 14px;
+    font-size: 1.5em;
+}
+
+#list-4 h1 {
+    font-size: 3em;
+}
+
+#list-5 {
+    float: none;
+    margin-top: 40px;
+    height: 550px;
+}
+
+#list-5 ul {
+    padding-top: 30px;
+}
+
+#list-5 li {
+    padding: 14px;
+    font-size: 1.5em;
+}
+
+#list-5 h1 {
+    font-size: 3em;
+}
+
+#list-6 {
+    float: none;
+    margin-top: 40px;
+    height: 500px;
+}
+
+#list-6 ul {
+    padding-top: 30px;
+}
+
+#list-6 li {
+    padding: 14px;
+    font-size: 1.5em;
+}
+
+#list-6 h1 {
+    font-size: 3em;
+}
+
+#note {
+    float: none;
+    position: none;
+}
+
+#note li {
+    font-size: 1.1em;
+}
+
+#order-form label {
+    font-size: 2.5em;
+}
+
+#order-form input[type="text"] {
+    height: 3rem;
+    font-size: 1.1rem;
+    max-width: 15em;
+    margin-right: none;
+}
+
+#order-form select {
+    height: 3em;
+}
+
+#order-form input[type="submit"] {
+    height: 4em;
+}
+
+#order-form input[type="number"] {
+    height: 2em;
+    font-size: 1.5em;
+}
+
+.alternative-order {
+    float: none;
+    margin-top: 50px;;
+}
+

@@ -643,7 +643,7 @@ footer {
 #order-form input[type="text"], #order-form input[type="email"] {
     display: block;
     height: 2.5em;
-    width: 22em;
+    width: 27em;
 }
 
 #order-form label {
@@ -1024,11 +1024,11 @@ footer {
 }
 
 /*Media queries for mobile devices */
-@media(max-width: 500px) {
+/* @media(max-width: 500px) {
     .container{
         width: 100%;
         text-align: center;
-        /* overflow: visible; */
+        /* overflow: visible; 
         margin-right: 0;
         border: 1px solid green;
     }
@@ -1046,4 +1046,4 @@ footer {
         width: device-width;
       }
 
-}
+} */

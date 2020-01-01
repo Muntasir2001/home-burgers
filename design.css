@@ -804,8 +804,9 @@ footer {
 
 #contact-form textarea {
     display: block;
-    width: 600px;
+    min-width: 600px;
     height: 300px;
+    margin: none;
 }
 
 #contact-form input[type="submit"] {

@@ -262,6 +262,14 @@ footer .subscribe p {
     font-size: 1.1em;
 }
 
+#service-heading h1 {
+    font-size: 2.7em;
+}
+
+#order-form h1{
+    font-size: 2.7em;
+}
+
 #order-form label {
     font-size: 2.5em;
 }
@@ -289,5 +297,78 @@ footer .subscribe p {
 .alternative-order {
     float: none;
     margin-top: 50px;;
+}
+
+.intro h1 {
+    font-size: 2.7em;
+}
+
+.intro p {
+    font-size: 1.1em;
+}
+
+.intro .first-p {
+    margin-top: 40px;
+}
+
+#branches { 
+    margin-top: -660px;
+}
+
+#branches h1 {
+    font-size: 2.7em;
+}
+
+.team-members {
+    display: none;
+}
+
+#contact-form h1 {
+    font-size: 2.7em;
+}
+
+#contact-form p {
+    font-size: 1.1em;
+}
+
+#contact-form label {
+    font-size: 2.5em;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"] {
+    height: 3rem;  
+    font-size: 1.1rem;
+    max-width: 15em;
+    margin-right: none;
+}
+
+#contact-form .query-type, #contact-form .mobile-type {
+    height: 3em;
+}
+
+#contact-form input[type="submit"] {
+    height: 4em;
+}
+
+#contact-form textarea {
+    min-width: 320px;
+    font-size: 1.5em;
+}
+
+.alternative-call {
+    margin-top: 90px;
+    float: none;
+}
+
+#opening-hours h1 {
+    font-size: 2.7em;
+}
+
+#opening-hours table {
+    max-width: 100px;
+}
+
+#opening-hours table th, #opening-hours table td {
+    padding: 10px;
 }
 
